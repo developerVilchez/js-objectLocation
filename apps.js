@@ -19,3 +19,12 @@ function showProps() {
 	elem.appendChild(text);
 	main.appendChild(elem);		
 }
+
+
+function moveBack() {
+	console.log(history.back());
+}
+
+function moveForward() {
+	history.forward();
+}
